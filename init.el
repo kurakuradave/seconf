@@ -11,6 +11,8 @@
 
 
 ;; Editor Settings
+(global-linum-mode t)
+(global-hl-line-mode t)
 ( set-background-color "Black" )
 ( set-foreground-color "Wheat" )
 ( set-cursor-color "Orange" )
