@@ -1,0 +1,58 @@
+SOFTWARE TO INSTALL::
+=====================
+NVDA
+http://www.nvaccess.org/download/
+
+FOCUS HIGHLIGHT NVDA PLUGIN
+http://addons.nvda-project.org/addons/focusHighlight.en.html
+
+EMACS+ESS
+http://vgoulet.act.ulaval.ca/en/emacs/
+
+GIT
+https://git-scm.com/download/win
+
+EMACS CONFIG FILE
+https://www.github.com/kurakuradave/seconf.git
+
+CLASSIC SHELL
+http://www.classicshell.net/
+
+FIREFOX
+https://www.mozilla.org/en-US/firefox/new/
+
+CHROME
+https://www.google.com/chrome/browser/desktop/index.html?brand=CHBD&gclid=CO3tzKDUhNACFRIkaAodWUgOww
+
+7ZIP
+http://www.7-zip.org/
+
+ECLIPSE
+https://eclipse.org/downloads/
+
+
+
+CHANGE SYSTEM PATH:
+===================
+ To change the system path, perform these steps:
+
+    Start the System Control Panel applet (Start - Settings - Control Panel - System).
+    Select the Advanced tab.
+    Click the Environment Variables button.
+    Under System Variables, select Path, then click Edit.
+    You'll see a list of folders, as this example for my system shows: C:\Program Files\Windows Resource Kits\Tools\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;C:\Program Files\Support Tools\;C:\Program Files\Common Files\Roxio Shared\DLLShared;C:\Program Files\Common Files\Ulead Systems\MPEG;C:\Program Files\Intel\DMIX;C:\Program Files\Executive Software\Diskeeper\;C:\Program Files\Bonjour\;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Misc
+    You can add additional folders that you want to include in searches. I add a "C:\program files\misc" entry into which I place my standalone utilities, instead of copying them into C:\windows. Click OK.
+    You'll need to restart the processes (e.g., command prompt) that use the system path to see the added folders.
+
+
+
+
+
+
+
+POWERSHELL:
+===========
+start-process emacs.exe file.txt
+findstr /i /n /r some*string$ somefiles
+dir /r /s c: | findstr wanted.txt
+Get-Content somefile.txt
