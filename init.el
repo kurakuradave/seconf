@@ -16,6 +16,7 @@
 ( set-background-color "Black" )
 ( set-foreground-color "Wheat" )
 ( set-cursor-color "Orange" )
+(set-face-background hl-line-face "gray13")
 (set-face-attribute 'default nil :font "Monospace-16")
 
 ;; scroll one line at a time (less "jumpy" than defaults)
